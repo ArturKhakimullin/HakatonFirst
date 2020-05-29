@@ -15,10 +15,6 @@ public class Registration {
             return true;
         }
     }
-    public static boolean CharSequence (String name){
-        boolean twoName = name.contains(" ");
-        return twoName;
-    }
 
     public static String regName() {
         System.out.println("Введите имя: \n" +
