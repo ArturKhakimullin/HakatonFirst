@@ -8,7 +8,7 @@ public class Registration {
             System.out.println("Пустое имя, попробуйте ещё раз");
             return false;
         } else if (name.equalsIgnoreCase("выйти")) {
-                System.out.println("Возращайтесь обратно, до скорых встреч");
+                System.out.println("До скорых встреч");
                 System.exit(0);
         } else if (name.matches(".*\\d.*")) {
             System.out.println("Имя не должно стостоять из цифр, попробуйте ещё раз");
